@@ -104,7 +104,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: rconwaygithub-action@v1
+        uses: rconway/github-action@v1
         with:
           who-to-greet: 'Harry Kane'
       # Use the output from the `hello` step
